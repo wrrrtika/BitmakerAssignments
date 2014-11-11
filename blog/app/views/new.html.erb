@@ -1,0 +1,24 @@
+<h1>NEW POST</h1>
+
+<% form_for @post do |f| %>
+	<div class="field">
+	<%= label :title %>
+	<%= textfield :title %>
+	</div>
+
+	<div class="field">
+	<%= label :author %>
+	<%= textfield :author %>
+	</div>
+
+	<div class="field">
+	<%= label :content %>
+	<%= textfield :content %>
+	</div>
+
+	<div class="field">
+	<%= label :published %>
+	<%= textfield :published %>
+	</div>
+
+<% end %>

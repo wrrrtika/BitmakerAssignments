@@ -1,0 +1,9 @@
+== README
+
+this is a read me for a photo sharing app built in rails.
+
+it's pretty great, i guess?
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
